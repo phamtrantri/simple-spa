@@ -4,10 +4,6 @@ Please refer to this technical design for overall architecture and rationale beh
 
 ## Overview Architecture
 
-### Rendering patterns
-
-- SSR:
-
 ### Third-parties/frameworks usage
 
 - React: the frontend library support me in writing user interfaces in break-down components and reuse them throught out the app. It helps keep code clean, modular, and easy to maintain
