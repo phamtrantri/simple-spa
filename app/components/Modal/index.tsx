@@ -25,7 +25,11 @@ const ModalContent: React.FC<IModalContentProps> = ({
     }
   };
   return (
-    <div className={styles.modalOverlay} onClick={handleOverlayClick}>
+    <div
+      className={styles.modalOverlay}
+      onClick={handleOverlayClick}
+      data-testid="modal-overlay"
+    >
       <div className={styles.modalContent}>
         <h2>{title}</h2>
         {children}
