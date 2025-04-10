@@ -1,0 +1,24 @@
+.container {
+  margin-bottom: 12px;
+}
+.inputContainer {
+  width: 100%;
+  height: 40px;
+  border: 1px solid var(--border-color-primary);
+  padding-left: 12px;
+  padding-right: 12px;
+  color: var(--text-primary);
+}
+
+.inputContainer:focus-visible {
+  outline: none;
+}
+
+.inputContainer.error {
+  border: 1px solid var(--border-color-error);
+}
+.errorText {
+  color: var(--text-error);
+  margin-top: 4px;
+  font-size: 0.8em;
+}

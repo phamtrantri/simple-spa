@@ -1,0 +1,15 @@
+.container {
+  border: 1px solid var(--border-color-primary);
+  background-color: white;
+  padding: 16px 24px;
+  font-family: "Inter", ui-sans-serif, system-ui, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: var(--text-primary);
+  -webkit-tap-highlight-color: transparent;
+}
+.container:active {
+  opacity: 0.5;
+}
+.container:focus-visible {
+  outline: none;
+}

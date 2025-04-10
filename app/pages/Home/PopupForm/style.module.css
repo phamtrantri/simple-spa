@@ -1,0 +1,17 @@
+.sendBtn {
+  margin-top: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+}
+.form {
+  width: 100%;
+}
+.serverErrorText {
+  display: inline-block;
+  color: var(--text-error);
+  margin-top: 16px;
+  font-size: 0.8em;
+}
