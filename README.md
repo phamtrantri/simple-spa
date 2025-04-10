@@ -66,7 +66,7 @@ Please refer to this technical design for overall architecture and rationale beh
 
 ### Sequence Diagram
 
-![Sequence Digram](./docs/)
+![Sequence Digram](./docs/Sequence_diagram.png)
 
 ## Improvements
 
@@ -98,3 +98,9 @@ npm run start
 ```
 
 website link: http://localhost:3000
+
+- Test
+
+```
+npm run test:coverage
+```
