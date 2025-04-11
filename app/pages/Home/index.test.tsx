@@ -57,7 +57,7 @@ describe("@pages/Home", () => {
     ).not.toBeInTheDocument();
   });
   it('should show SuccessPopup when clicking "Send" button', async () => {
-    (registerEmail as jest.Mock).mockResolvedValue({ success: true });
+    (registerEmail as jest.Mock).mockResolvedValue("Registered");
     render(<Home />);
     const inviteButton = screen.getByRole("button", {
       name: /request an invite/i,
@@ -92,7 +92,6 @@ describe("@pages/Home", () => {
   it("should show inline errors when form fields are empty", async () => {
     render(<Home />);
 
-    // Open the PopupForm
     const inviteButton = screen.getByRole("button", {
       name: /request an invite/i,
     });
@@ -108,7 +107,6 @@ describe("@pages/Home", () => {
   it("should show inline errors when form fields fail validations", async () => {
     render(<Home />);
 
-    // Open the PopupForm
     const inviteButton = screen.getByRole("button", {
       name: /request an invite/i,
     });
